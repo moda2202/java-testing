@@ -1,0 +1,3027 @@
+[
+  {
+    "category": "Java Introduction",
+    "questions": [
+      {
+        "questionText": "What is Java?",
+        "choices": [
+          "A type of coffee",
+          "A programming language",
+          "An operating system",
+          "A database"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "When was Java created?",
+        "choices": [
+          "1985",
+          "1990",
+          "1995",
+          "2000"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "Who currently owns Java?",
+        "choices": [
+          "Google",
+          "Microsoft",
+          "Oracle",
+          "Apple"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "Which of the following is NOT a use of Java?",
+        "choices": [
+          "Mobile applications",
+          "Desktop applications",
+          "Web applications",
+          "Operating system development"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "questionText": "What type of language is Java?",
+        "choices": [
+          "Functional",
+          "Procedural",
+          "Object-oriented",
+          "Markup"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "Java Syntax",
+    "questions": [
+      {
+        "questionText": "Which of the following is the correct syntax to print 'Hello World' in Java?",
+        "choices": [
+          "print('Hello World')",
+          "echo 'Hello World'",
+          "System.out.println('Hello World')",
+          "Console.WriteLine('Hello World')"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "questionText": "Which method must be present in a Java program?",
+        "choices": [
+          "main()",
+          "start()",
+          "init()",
+          "run()"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "What is the correct file extension for Java files?",
+        "choices": [
+          ".js",
+          ".java",
+          ".jav",
+          ".class"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "How do you create a single-line comment in Java?",
+        "choices": [
+          "/* comment */",
+          "// comment",
+          "# comment",
+          "<!-- comment -->"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "Which keyword is used to define a class in Java?",
+        "choices": [
+          "class",
+          "Class",
+          "define",
+          "def"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Java Output / Print",
+    "questions": [
+      {
+        "questionText": "Which method is used to print text in Java?",
+        "choices": [
+          "print()",
+          "System.out.print()",
+          "System.out.println()",
+          "println()"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What happens when you use multiple println() methods?",
+        "choices": [
+          "The text is printed on the same line",
+          "Each println() call adds a new line",
+          "It creates an error",
+          "Only the first println() is executed"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What must be used to wrap text in the println() method?",
+        "choices": [
+          "Single quotes ('')",
+          "Double quotes (\"\")",
+          "No quotes",
+          "Backticks (` `)"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What is the difference between print() and println()?",
+        "choices": [
+          "print() adds a new line at the end",
+          "println() does not add a new line at the end",
+          "print() does not add a new line at the end",
+          "There is no difference"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "Why is an extra space added after 'Hello World!' in the print() method example?",
+        "choices": [
+          "To cause an error",
+          "For better readability",
+          "It is mandatory",
+          "To separate different data types"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Print Numbers",
+    "questions": [
+      {
+        "questionText": "How do you print the number 3 in Java?",
+        "choices": [
+          "System.out.println(\"3\");",
+          "System.out.println(3);",
+          "System.print(3);",
+          "println(3);"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What is the output of System.out.println(3 + 3);?",
+        "choices": [
+          "3",
+          "33",
+          "6",
+          "None"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "How do you print the number 50000 in Java?",
+        "choices": [
+          "System.out.println(\"50000\");",
+          "System.out.println(50000);",
+          "System.print(50000);",
+          "println(50000);"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What is the output of System.out.println(2 * 5);?",
+        "choices": [
+          "25",
+          "10",
+          "2 * 5",
+          "None"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "Which of the following is correct for printing the result of 3 + 3 in Java?",
+        "choices": [
+          "System.out.println(\"3 + 3\");",
+          "System.out.println(3 + 3);",
+          "System.out.println(\"3 + 3 = \" + (3 + 3));",
+          "All of the above"
+        ],
+        "correctAnswerIndex": 3
+      }
+    ]
+  },
+  {
+    "category": "Java Comments",
+    "questions": [
+      {
+        "questionText": "What is the purpose of comments in Java?",
+        "choices": [
+          "To execute code",
+          "To make code more readable",
+          "To declare variables",
+          "To create classes"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "Which symbol is used for single-line comments in Java?",
+        "choices": [
+          "#",
+          "//",
+          "/*",
+          "--"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "How do you create a multi-line comment in Java?",
+        "choices": [
+          "// This is a comment",
+          "/* This is a comment */",
+          "# This is a comment",
+          "-- This is a comment"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "Which of the following is ignored by the Java compiler?",
+        "choices": [
+          "Code",
+          "Variables",
+          "Comments",
+          "Methods"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "Which comment style is typically used for short comments?",
+        "choices": [
+          "Single-line comments",
+          "Multi-line comments",
+          "Doc comments",
+          "Inline comments"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Java Variables",
+    "questions": [
+      {
+        "questionText": "Which of the following is a correct variable declaration in Java?",
+        "choices": [
+          "int 5num;",
+          "int num5;",
+          "int num-5;",
+          "int num 5;"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "How do you create a variable of type String with the value 'John'?",
+        "choices": [
+          "String name = John;",
+          "String name = 'John';",
+          "String name = \"John\";",
+          "String name = `John`;"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What is the output of the following code?\nint myNum = 15;\nmyNum = 20;\nSystem.out.println(myNum);",
+        "choices": [
+          "15",
+          "20",
+          "35",
+          "Error"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "How do you declare a final variable in Java?",
+        "choices": [
+          "const int myNum = 15;",
+          "final int myNum = 15;",
+          "static int myNum = 15;",
+          "int myNum = 15;"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "Which of the following types is used to store a single character in Java?",
+        "choices": [
+          "String",
+          "int",
+          "char",
+          "boolean"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "Java Print Variables",
+    "questions": [
+      {
+        "questionText": "How do you print the value of a variable in Java?",
+        "choices": [
+          "print(variable);",
+          "System.print(variable);",
+          "System.out.println(variable);",
+          "echo(variable);"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What will be the output of the following code?\nString name = \"John\";\nSystem.out.println(\"Hello \" + name);",
+        "choices": [
+          "Hello John",
+          "name",
+          "Hello",
+          "John"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "Which operator is used to add text and variables together in Java?",
+        "choices": [
+          "+",
+          "&",
+          ".",
+          "*"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "What is the result of the following code?\nint x = 5;\nint y = 6;\nSystem.out.println(x + y);",
+        "choices": [
+          "11",
+          "56",
+          "65",
+          "Error"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "How do you print the full name using the following variables?\nString firstName = \"John \";\nString lastName = \"Doe\";",
+        "choices": [
+          "System.out.println(firstName + lastName);",
+          "System.out.println(firstName & lastName);",
+          "System.out.println(firstName . lastName);",
+          "System.out.println(firstName * lastName);"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Java Declare Multiple Variables",
+    "questions": [
+      {
+        "questionText": "How can you declare multiple variables of the same type in a single line?",
+        "choices": [
+          "int x; int y; int z;",
+          "int x, y, z;",
+          "int x y z;",
+          "int x = y = z;"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What is the output of the following code?\nint x = 5, y = 6, z = 50;\nSystem.out.println(x + y + z);",
+        "choices": [
+          "5650",
+          "61",
+          "50",
+          "None"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "How can you assign the same value to multiple variables in a single line?",
+        "choices": [
+          "int x, y, z = 50;",
+          "int x = 50, y = 50, z = 50;",
+          "int x, y, z; x = y = z = 50;",
+          "int x = y = z = 50;"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "Which of the following is a correct way to declare and initialize multiple variables?",
+        "choices": [
+          "int a, b = 10, 20;",
+          "int a = 10, b = 20;",
+          "int a = b = 10;",
+          "int a, b, c = 10, 20, 30;"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What is the correct syntax to declare multiple variables of the same type?",
+        "choices": [
+          "type variable1 variable2 variable3;",
+          "type variable1, variable2, variable3;",
+          "type: variable1, variable2, variable3;",
+          "type = variable1, variable2, variable3;"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Java Identifiers",
+    "questions": [
+      {
+        "questionText": "What are identifiers in Java?",
+        "choices": [
+          "Keywords",
+          "Reserved words",
+          "Unique names for variables, methods, and classes",
+          "Data types"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "Which of the following is a valid Java identifier?",
+        "choices": [
+          "1variable",
+          "$variable",
+          "variable-name",
+          "variable name"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "Which of the following is NOT a valid rule for naming identifiers in Java?",
+        "choices": [
+          "Names must begin with a letter",
+          "Names can contain letters, digits, underscores, and dollar signs",
+          "Names should start with a lowercase letter",
+          "Names can contain spaces"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "questionText": "Which of the following is a recommended naming convention for variables in Java?",
+        "choices": [
+          "use_lowercase_and_underscores",
+          "useUpperCamelCase",
+          "useLowerCamelCase",
+          "use-UPPERCASE"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "Why is it recommended to use descriptive names for variables?",
+        "choices": [
+          "To avoid compilation errors",
+          "To improve code readability and maintainability",
+          "To make the code run faster",
+          "To comply with Java syntax rules"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Java Data Types",
+    "questions": [
+      {
+        "questionText": "How many primitive data types are there in Java?",
+        "choices": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "Which data type is used to store true or false values?",
+        "choices": [
+          "int",
+          "char",
+          "boolean",
+          "float"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What is the size of the int data type in Java?",
+        "choices": [
+          "2 bytes",
+          "4 bytes",
+          "8 bytes",
+          "1 byte"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "Which of the following is a non-primitive data type in Java?",
+        "choices": [
+          "int",
+          "char",
+          "boolean",
+          "String"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "questionText": "What is the size of the float data type in Java?",
+        "choices": [
+          "4 bytes",
+          "8 bytes",
+          "2 bytes",
+          "1 byte"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Java Numbers",
+    "questions": [
+      {
+        "questionText": "Which data type is used to store whole numbers in Java?",
+        "choices": [
+          "float",
+          "int",
+          "double",
+          "char"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What is the range of the byte data type in Java?",
+        "choices": [
+          "-128 to 127",
+          "-32768 to 32767",
+          "-2147483648 to 2147483647",
+          "-9223372036854775808 to 9223372036854775807"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "What is the precision of a float data type?",
+        "choices": [
+          "6 to 7 decimal digits",
+          "15 decimal digits",
+          "2 to 3 decimal digits",
+          "10 decimal digits"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "Which data type is used for fractional numbers?",
+        "choices": [
+          "int",
+          "boolean",
+          "char",
+          "double"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "questionText": "How do you declare a long variable with the value 15000000000?",
+        "choices": [
+          "long myNum = 15000000000;",
+          "long myNum = 15000000000L;",
+          "long myNum = 15000000000f;",
+          "long myNum = 15000000000d;"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Java Boolean Data Types",
+    "questions": [
+      {
+        "questionText": "What values can a boolean data type store?",
+        "choices": [
+          "True or False",
+          "Any integer",
+          "Any character",
+          "Any floating-point number"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "Which keyword is used to declare a boolean variable in Java?",
+        "choices": [
+          "bool",
+          "boolean",
+          "int",
+          "float"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What is the output of the following code?\nboolean isJavaFun = true;\nSystem.out.println(isJavaFun);",
+        "choices": [
+          "true",
+          "false",
+          "1",
+          "0"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "How do you declare a boolean variable with the value false?",
+        "choices": [
+          "boolean myVar = 'false';",
+          "boolean myVar = false;",
+          "boolean myVar = \"false\";",
+          "boolean myVar = 0;"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "Which of the following is a correct way to use a boolean variable in a conditional statement?",
+        "choices": [
+          "if (booleanVariable) { ... }",
+          "if booleanVariable { ... }",
+          "if (booleanVariable == true) { ... }",
+          "if (booleanVariable = true) { ... }"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Java Characters",
+    "questions": [
+      {
+        "questionText": "Which data type is used to store a single character in Java?",
+        "choices": [
+          "String",
+          "int",
+          "char",
+          "boolean"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "How do you declare a char variable with the value 'A'?",
+        "choices": [
+          "char myChar = 'A';",
+          "char myChar = \"A\";",
+          "char myChar = A;",
+          "char myChar = `A`;"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "What is the output of the following code?\nchar myVar1 = 65;\nSystem.out.println(myVar1);",
+        "choices": [
+          "A",
+          "65",
+          "a",
+          "Error"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "How do you print the ASCII value of a character?",
+        "choices": [
+          "System.out.println((int) 'A');",
+          "System.out.println((char) 'A');",
+          "System.out.println((ascii) 'A');",
+          "System.out.println((int) A);"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "How do you declare a String variable with the value 'Hello World'?",
+        "choices": [
+          "String greeting = 'Hello World';",
+          "char greeting = 'Hello World';",
+          "String greeting = \"Hello World\";",
+          "char greeting = \"Hello World\";"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "Java Non-Primitive Data Types",
+    "questions": [
+      {
+        "questionText": "What are non-primitive data types also known as?",
+        "choices": [
+          "Primitive types",
+          "Reference types",
+          "Simple types",
+          "Value types"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "Which of the following is a non-primitive data type?",
+        "choices": [
+          "int",
+          "char",
+          "boolean",
+          "String"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "questionText": "Can non-primitive types be null?",
+        "choices": [
+          "Yes",
+          "No",
+          "Sometimes",
+          "Depends on the context"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "What is a key difference between primitive and non-primitive types?",
+        "choices": [
+          "Primitive types can be null",
+          "Non-primitive types can call methods",
+          "Primitive types are objects",
+          "Non-primitive types are predefined in Java"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "How do non-primitive types in Java start?",
+        "choices": [
+          "With a lowercase letter",
+          "With an uppercase letter",
+          "With a number",
+          "With a special character"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Operators",
+    "questions": [
+      {
+        "questionText": "Which operator is used to add two values in Java?",
+        "choices": [
+          "-",
+          "*",
+          "+",
+          "/"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What is the result of the following code?\nint sum1 = 100 + 50;\nint sum2 = sum1 + 250;\nSystem.out.println(sum2);",
+        "choices": [
+          "150",
+          "250",
+          "300",
+          "400"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "questionText": "Which operator is used for division in Java?",
+        "choices": [
+          "%",
+          "/",
+          "*",
+          "-"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What does the modulus operator (%) do?",
+        "choices": [
+          "Adds two numbers",
+          "Subtracts one number from another",
+          "Returns the division remainder",
+          "Divides one number by another"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "Which of the following is a comparison operator?",
+        "choices": [
+          "+",
+          "=",
+          ">",
+          "*"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "Java Strings",
+    "questions": [
+      {
+        "questionText": "How do you declare a String variable in Java?",
+        "choices": [
+          "String greeting = 'Hello';",
+          "String greeting = Hello;",
+          "String greeting = \"Hello\";",
+          "String greeting = `Hello`;"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What method can be used to find the length of a string in Java?",
+        "choices": [
+          "length()",
+          "size()",
+          "getLength()",
+          "count()"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "What is the output of the following code?\nString txt = \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\";\nSystem.out.println(txt.length());",
+        "choices": [
+          "25",
+          "26",
+          "27",
+          "28"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "How do you convert a string to uppercase in Java?",
+        "choices": [
+          "toUpper()",
+          "upperCase()",
+          "toUpperCase()",
+          "convertToUpperCase()"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What does the indexOf() method do?",
+        "choices": [
+          "Returns the last occurrence of a specified text in a string",
+          "Returns the first occurrence of a specified text in a string",
+          "Returns the length of a string",
+          "Returns a substring of a string"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": " Non-Primitive Data Types",
+    "questions": [
+      {
+        "questionText": "What are non-primitive data types in Java also known as?",
+        "choices": [
+          "Reference types",
+          "Value types",
+          "Basic types",
+          "Simple types"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "Which of the following is NOT true about non-primitive data types?",
+        "choices": [
+          "They are predefined in Java",
+          "They can be null",
+          "They are created by the programmer",
+          "They start with an uppercase letter"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "Which of the following is a non-primitive data type?",
+        "choices": [
+          "int",
+          "float",
+          "char",
+          "String"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "questionText": "What is the main difference between primitive and non-primitive data types?",
+        "choices": [
+          "Primitive types are created by the programmer",
+          "Non-primitive types are predefined in Java",
+          "Primitive types cannot be null",
+          "Non-primitive types cannot be null"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "Which statement is true about non-primitive data types?",
+        "choices": [
+          "They can be used to call methods",
+          "They always have a value",
+          "They start with a lowercase letter",
+          "They are predefined in Java"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Java Operators",
+    "questions": [
+      {
+        "questionText": "Which operator is used to add two values in Java?",
+        "choices": [
+          "-",
+          "*",
+          "+",
+          "/"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What is the output of the following code?\nint x = 100 + 50;\nSystem.out.println(x);",
+        "choices": [
+          "100",
+          "150",
+          "50",
+          "200"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "Which of the following is an assignment operator in Java?",
+        "choices": [
+          "+=",
+          ">",
+          "==",
+          "&&"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "What does the modulus operator (%) do?",
+        "choices": [
+          "Adds two values",
+          "Divides one value by another",
+          "Returns the division remainder",
+          "Multiplies two values"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "Which logical operator returns true if both statements are true?",
+        "choices": [
+          "||",
+          "&&",
+          "!",
+          "&"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Strings",
+    "questions": [
+      {
+        "questionText": "How do you create a String variable in Java?",
+        "choices": [
+          "String greeting = 'Hello';",
+          "String greeting = Hello;",
+          "String greeting = \"Hello\";",
+          "String greeting = `Hello`;"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What does the length() method do?",
+        "choices": [
+          "Returns the size of an array",
+          "Returns the number of characters in a string",
+          "Returns the number of elements in a list",
+          "Returns the index of a character in a string"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "How do you convert a string to uppercase in Java?",
+        "choices": [
+          "toUpperCase()",
+          "convertToUpperCase()",
+          "toUpper()",
+          "stringToUpperCase()"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "What is the output of the following code?\nString txt = \"Hello World\";\nSystem.out.println(txt.indexOf(\"World\"));",
+        "choices": [
+          "0",
+          "6",
+          "5",
+          "11"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "Which method is used to find the first occurrence of a specified text in a string?",
+        "choices": [
+          "indexOf()",
+          "find()",
+          "search()",
+          "locate()"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Java Else",
+    "questions": [
+      {
+        "questionText": "What does the else statement do in Java?",
+        "choices": [
+          "Executes code if a condition is true",
+          "Executes code if a condition is false",
+          "Ends a loop",
+          "Defines a new variable"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What will the following code output?\nint time = 20;\nif (time < 18) {\n  System.out.println(\"Good day.\");\n} else {\n  System.out.println(\"Good evening.\");\n}",
+        "choices": [
+          "Good day.",
+          "Good morning.",
+          "Good evening.",
+          "Good night."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "When is the code block inside an else statement executed?",
+        "choices": [
+          "When the condition in the if statement is true",
+          "When the condition in the if statement is false",
+          "Always",
+          "Never"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What is the correct syntax for an else statement?",
+        "choices": [
+          "else {\n  // code block\n}",
+          "if else {\n  // code block\n}",
+          "elseif {\n  // code block\n}",
+          "else if {\n  // code block\n}"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "In the example given, why does the program print 'Good evening.'?",
+        "choices": [
+          "Because time is less than 18",
+          "Because time is equal to 18",
+          "Because time is greater than 18",
+          "Because time is not a valid variable"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "Java Else If",
+    "questions": [
+      {
+        "questionText": "What does the else if statement do?",
+        "choices": [
+          "Executes code if the first condition is true",
+          "Executes code if the first condition is false and the new condition is true",
+          "Executes code if all conditions are true",
+          "Ends a loop"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What will the following code output?\nint time = 22;\nif (time < 10) {\n  System.out.println(\"Good morning.\");\n} else if (time < 18) {\n  System.out.println(\"Good day.\");\n} else {\n  System.out.println(\"Good evening.\");\n}",
+        "choices": [
+          "Good morning.",
+          "Good day.",
+          "Good evening.",
+          "Good night."
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "When is the code block inside an else if statement executed?",
+        "choices": [
+          "When the first condition is true",
+          "When the first condition is false and the new condition is true",
+          "When the first condition is false and the new condition is false",
+          "Always"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What is the correct syntax for an else if statement?",
+        "choices": [
+          "else {\n  // code block\n}",
+          "if else {\n  // code block\n}",
+          "else if (condition) {\n  // code block\n}",
+          "elseif (condition) {\n  // code block\n}"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "In the given example, why does the program print 'Good evening.'?",
+        "choices": [
+          "Because time is less than 10",
+          "Because time is less than 18",
+          "Because time is greater than or equal to 18",
+          "Because time is not a valid variable"
+        ],
+        "correctAnswerIndex": 3
+      }
+    ]
+  },
+  {
+    "category": "Java Switch",
+    "questions": [
+      {
+        "questionText": "What does the switch statement do?",
+        "choices": [
+          "Executes a single block of code",
+          "Selects one of many code blocks to be executed",
+          "Ends a loop",
+          "Defines a new variable"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What will the following code output?\nint day = 4;\nswitch (day) {\n  case 1:\n    System.out.println(\"Monday\");\n    break;\n  case 2:\n    System.out.println(\"Tuesday\");\n    break;\n  case 3:\n    System.out.println(\"Wednesday\");\n    break;\n  case 4:\n    System.out.println(\"Thursday\");\n    break;\n  case 5:\n    System.out.println(\"Friday\");\n    break;\n  case 6:\n    System.out.println(\"Saturday\");\n    break;\n  case 7:\n    System.out.println(\"Sunday\");\n    break;\n}",
+        "choices": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "questionText": "What is the purpose of the break keyword in a switch statement?",
+        "choices": [
+          "To exit a loop",
+          "To define a new variable",
+          "To stop the execution of more code and case testing inside the block",
+          "To repeat the case"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What happens if there is no break statement in a switch case?",
+        "choices": [
+          "The code execution stops",
+          "The next case is not executed",
+          "The next case will be executed",
+          "An error occurs"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What is the purpose of the default keyword in a switch statement?",
+        "choices": [
+          "To specify code to run if there is no case match",
+          "To define a new variable",
+          "To end the switch statement",
+          "To repeat the case"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Java While Loop",
+    "questions": [
+      {
+        "questionText": "What does the while loop do in Java?",
+        "choices": [
+          "Executes a block of code once",
+          "Executes a block of code as long as a specified condition is true",
+          "Executes a block of code a fixed number of times",
+          "Executes a block of code if a condition is false"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What will the following code output?\nint i = 0;\nwhile (i < 3) {\n  System.out.println(i);\n  i++;\n}",
+        "choices": [
+          "0\n1\n2",
+          "1\n2\n3",
+          "0\n1\n2\n3",
+          "1\n2\n3\n4"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "When does the while loop stop executing?",
+        "choices": [
+          "When the condition becomes true",
+          "When the condition becomes false",
+          "After a fixed number of iterations",
+          "When an error occurs"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What is the correct syntax for a while loop?",
+        "choices": [
+          "while (condition) {\n  // code block\n}",
+          "while condition {\n  // code block\n}",
+          "while: (condition) {\n  // code block\n}",
+          "while (condition) // code block"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "What should you not forget to do inside a while loop?",
+        "choices": [
+          "Declare a new variable",
+          "Increase the variable used in the condition",
+          "Print a statement",
+          "Close the loop with a semicolon"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Java Do/While Loop",
+    "questions": [
+      {
+        "questionText": "What does the do/while loop do in Java?",
+        "choices": [
+          "Executes a block of code as long as a specified condition is true",
+          "Executes a block of code once and then repeats it as long as a specified condition is true",
+          "Executes a block of code a fixed number of times",
+          "Executes a block of code if a condition is false"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What will the following code output?\nint i = 0;\ndo {\n  System.out.println(i);\n  i++;\n}\nwhile (i < 3);",
+        "choices": [
+          "0\n1\n2",
+          "1\n2\n3",
+          "0\n1\n2\n3",
+          "1\n2\n3\n4"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "When does the do/while loop stop executing?",
+        "choices": [
+          "When the condition becomes true",
+          "When the condition becomes false",
+          "After a fixed number of iterations",
+          "When an error occurs"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What is the correct syntax for a do/while loop?",
+        "choices": [
+          "do (condition) {\n  // code block\n} while;",
+          "do {\n  // code block\n} while (condition);",
+          "do {\n  // code block\n} while condition;",
+          "do while (condition) {\n  // code block\n};"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What is the key difference between a while loop and a do/while loop?",
+        "choices": [
+          "A while loop executes the code block once before checking the condition",
+          "A do/while loop executes the code block once before checking the condition",
+          "A while loop does not check the condition",
+          "A do/while loop does not check the condition"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Java For Loop",
+    "questions": [
+      {
+        "questionText": "What does the for loop do in Java?",
+        "choices": [
+          "Executes a block of code as long as a specified condition is true",
+          "Executes a block of code a fixed number of times",
+          "Executes a block of code if a condition is false",
+          "Executes a block of code once"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What will the following code output?\nfor (int i = 0; i < 3; i++) {\n  System.out.println(i);\n}",
+        "choices": [
+          "0\n1\n2",
+          "1\n2\n3",
+          "0\n1\n2\n3",
+          "1\n2\n3\n4"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "When does the for loop stop executing?",
+        "choices": [
+          "When the condition becomes true",
+          "When the condition becomes false",
+          "After a fixed number of iterations",
+          "When an error occurs"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What is the correct syntax for a for loop?",
+        "choices": [
+          "for (statement 1; statement 2; statement 3) {\n  // code block\n}",
+          "for statement 1; statement 2; statement 3 {\n  // code block\n}",
+          "for: (statement 1; statement 2; statement 3) {\n  // code block\n}",
+          "for (statement 1; statement 2; statement 3) // code block"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "What does statement 3 in a for loop do?",
+        "choices": [
+          "Sets a variable before the loop starts",
+          "Defines the condition for the loop to run",
+          "Increases a value each time the code block in the loop has been executed",
+          "Decreases a value each time the code block in the loop has been executed"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "Java Break and Continue",
+    "questions": [
+      {
+        "questionText": "What does the break statement do in a loop?",
+        "choices": [
+          "Executes a block of code once",
+          "Ends the loop immediately",
+          "Skips the current iteration and continues with the next one",
+          "Repeats the loop a fixed number of times"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What will the following code output?\nfor (int i = 0; i < 5; i++) {\n  if (i == 3) {\n    break;\n  }\n  System.out.println(i);\n}",
+        "choices": [
+          "0\n1\n2\n3",
+          "0\n1\n2",
+          "0\n1\n2\n3\n4",
+          "1\n2\n3\n4"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What does the continue statement do in a loop?",
+        "choices": [
+          "Executes a block of code once",
+          "Ends the loop immediately",
+          "Skips the current iteration and continues with the next one",
+          "Repeats the loop a fixed number of times"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What will the following code output?\nfor (int i = 0; i < 5; i++) {\n  if (i == 3) {\n    continue;\n  }\n  System.out.println(i);\n}",
+        "choices": [
+          "0\n1\n2\n3",
+          "0\n1\n2\n4",
+          "0\n1\n2\n3\n4",
+          "1\n2\n3\n4"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What is the correct syntax for a break statement in a loop?",
+        "choices": [
+          "break;",
+          "break()",
+          "break[];",
+          "break{}"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Java Arrays",
+    "questions": [
+      {
+        "questionText": "What is an array in Java?",
+        "choices": [
+          "A single value",
+          "A variable that can hold multiple values",
+          "A function",
+          "A loop"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "How do you declare an array of strings in Java?",
+        "choices": [
+          "String[] cars;",
+          "String cars[];",
+          "String cars;",
+          "String[] cars = {};"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "How do you access the first element of an array named 'cars'?",
+        "choices": [
+          "cars[1]",
+          "cars(0)",
+          "cars[0]",
+          "cars[]"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What will the following code output?\nString[] cars = {\"Volvo\", \"BMW\", \"Ford\"};\nSystem.out.println(cars[1]);",
+        "choices": [
+          "Volvo",
+          "BMW",
+          "Ford",
+          "Mazda"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "How do you find the length of an array named 'cars'?",
+        "choices": [
+          "cars.size()",
+          "cars.length",
+          "cars.length()",
+          "cars.size"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Java OOP",
+    "questions": [
+      {
+        "questionText": "Which of the following best describes Object-Oriented Programming (OOP)?",
+        "choices": [
+          "A programming model based on functions",
+          "A programming model that includes variables and arrays",
+          "A programming model that involves creating objects that contain both data and methods",
+          "A programming model focused on the use of loops"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What does DRY stand for in OOP?",
+        "choices": [
+          "Don\u2019t Repeat Yourself",
+          "Do Reuse Yourself",
+          "Don\u2019t Rewrite Yourself",
+          "Do Repeat Yourself"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "Which of the following is NOT an advantage of OOP over procedural programming?",
+        "choices": [
+          "OOP is faster and easier to execute",
+          "OOP provides a clear structure for programs",
+          "OOP makes the code easier to maintain, modify, and debug",
+          "OOP does not support code reusability"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "questionText": "In OOP, what are the two main aspects?",
+        "choices": [
+          "Classes and methods",
+          "Methods and attributes",
+          "Classes and objects",
+          "Objects and methods"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What is the relationship between classes and objects in Java OOP?",
+        "choices": [
+          "Classes are instances of objects",
+          "Objects are templates for classes",
+          "Objects are instances of classes",
+          "Classes are methods in objects"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "Java Classes and Objects",
+    "questions": [
+      {
+        "questionText": "Which keyword is used to create a class in Java?",
+        "choices": [
+          "object",
+          "class",
+          "new",
+          "create"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "How do you create an object of a class named Main?",
+        "choices": [
+          "Main myObj = Main();",
+          "Main myObj = new Main();",
+          "Main myObj = create Main();",
+          "Main myObj = class Main();"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What is the value of x in the following code snippet?\n```java\npublic class Main {\n  int x = 5;\n}\n```",
+        "choices": [
+          "0",
+          "5",
+          "null",
+          "undefined"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "In the provided example, what does the method `System.out.println(myObj.x);` do?",
+        "choices": [
+          "Sets the value of x to 5",
+          "Prints the value of x",
+          "Creates a new object of class Main",
+          "Defines a class named Main"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "In Java, a class should always start with which type of letter?",
+        "choices": [
+          "Lowercase",
+          "Uppercase",
+          "Digit",
+          "Special character"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Accessing Attributes",
+    "questions": [
+      {
+        "questionText": "How do you access the value of an attribute in Java?",
+        "choices": [
+          "Using the dot syntax",
+          "Using the colon syntax",
+          "Using the equal syntax",
+          "Using the arrow syntax"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "What is the output of the following code?\n```java\npublic class Main {\n  int x = 5;\n\n  public static void main(String[] args) {\n    Main myObj = new Main();\n    System.out.println(myObj.x);\n  }\n}\n```",
+        "choices": [
+          "0",
+          "5",
+          "null",
+          "undefined"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "How can you modify the value of an attribute in Java?",
+        "choices": [
+          "Using the add() method",
+          "Using the set() method",
+          "Directly assigning a new value using the dot syntax",
+          "Using the change() method"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What will happen if you try to assign a new value to a final attribute?",
+        "choices": [
+          "The value will change",
+          "A runtime error will occur",
+          "The value will remain unchanged",
+          "A compilation error will occur"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "questionText": "How can you prevent an attribute value from being overridden?",
+        "choices": [
+          "Declare the attribute as static",
+          "Declare the attribute as final",
+          "Declare the attribute as private",
+          "Declare the attribute as public"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Java Class Methods",
+    "questions": [
+      {
+        "questionText": "What does the static keyword indicate in a method declaration?",
+        "choices": [
+          "The method belongs to an instance of the class",
+          "The method can only be called once",
+          "The method belongs to the class itself, not to an object of the class",
+          "The method is a constructor"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "How do you call a method in Java?",
+        "choices": [
+          "By writing the method's name followed by parentheses",
+          "By writing the method's name followed by curly braces",
+          "By writing the method's name followed by square brackets",
+          "By writing the method's name followed by a semicolon"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "What is the output of the following code?\n```java\npublic class Main {\n  static void myMethod() {\n    System.out.println(\"Hello World!\");\n  }\n\n  public static void main(String[] args) {\n    myMethod();\n  }\n}\n```",
+        "choices": [
+          "Hello",
+          "World",
+          "Hello World!",
+          "No output"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "Which type of method can be called without creating an object of the class?",
+        "choices": [
+          "Public method",
+          "Private method",
+          "Static method",
+          "Protected method"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What is the difference between static and public methods?",
+        "choices": [
+          "Static methods belong to an instance of the class, public methods belong to the class itself",
+          "Static methods can be called without creating objects, public methods can only be called by creating objects",
+          "Static methods can only be called once, public methods can be called multiple times",
+          "Static methods are constructors, public methods are not"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Java Constructors",
+    "questions": [
+      {
+        "questionText": "What is a constructor in Java?",
+        "choices": [
+          "A method to destroy objects",
+          "A special method used to initialize objects",
+          "A method to clone objects",
+          "A method to finalize objects"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "When is a constructor called?",
+        "choices": [
+          "When an object is destroyed",
+          "When an object is cloned",
+          "When an object is created",
+          "When an object is finalized"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What is the purpose of a constructor?",
+        "choices": [
+          "To set initial values for object attributes",
+          "To print object details",
+          "To clone an object",
+          "To destroy an object"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "What will be the output of the following code?\n```java\npublic class Main {\n  int x;\n\n  public Main() {\n    x = 5;\n  }\n\n  public static void main(String[] args) {\n    Main myObj = new Main();\n    System.out.println(myObj.x);\n  }\n}\n```",
+        "choices": [
+          "0",
+          "5",
+          "null",
+          "undefined"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What keyword is used to create a constructor?",
+        "choices": [
+          "method",
+          "class",
+          "constructor",
+          "There is no special keyword"
+        ],
+        "correctAnswerIndex": 3
+      }
+    ]
+  },
+  {
+    "category": "Java Modifiers",
+    "questions": [
+      {
+        "questionText": "What is an access modifier in Java?",
+        "choices": [
+          "A keyword to set access level for classes, attributes, methods, and constructors",
+          "A keyword to optimize code execution",
+          "A keyword to define loops",
+          "A keyword to handle exceptions"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "Which modifier makes a class accessible by any other class?",
+        "choices": [
+          "private",
+          "default",
+          "public",
+          "protected"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What does the 'final' non-access modifier do?",
+        "choices": [
+          "Makes classes accessible only within the same package",
+          "Prevents classes from being inherited",
+          "Allows methods to be overridden",
+          "Enables attributes to be serialized"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What is the purpose of the 'abstract' modifier?",
+        "choices": [
+          "It makes methods executable",
+          "It prevents method overriding",
+          "It defines methods without a body that must be implemented by subclasses",
+          "It allows attributes to be modified"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "Which method can be called without creating an object of the class?",
+        "choices": [
+          "private method",
+          "final method",
+          "abstract method",
+          "static method"
+        ],
+        "correctAnswerIndex": 3
+      }
+    ]
+  },
+  {
+    "category": "Java Encapsulation",
+    "questions": [
+      {
+        "questionText": "What is the primary goal of encapsulation?",
+        "choices": [
+          "To speed up program execution",
+          "To hide sensitive data from users",
+          "To simplify code structure",
+          "To allow code reusability"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "Which keyword is used to declare a variable as private?",
+        "choices": [
+          "public",
+          "protected",
+          "final",
+          "private"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "questionText": "How do you provide access to a private variable in Java?",
+        "choices": [
+          "By using the public keyword",
+          "By using get and set methods",
+          "By using the final keyword",
+          "By using the static keyword"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What is the output of the following code?\n```java\npublic class Main {\n  public static void main(String[] args) {\n    Person myObj = new Person();\n    myObj.setName(\"John\");\n    System.out.println(myObj.getName());\n  }\n}\n```",
+        "choices": [
+          "null",
+          "error",
+          "John",
+          "undefined"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "Why would you use the get and set methods?",
+        "choices": [
+          "To increase execution speed",
+          "To control access to private variables",
+          "To reduce code complexity",
+          "To allow code reusability"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Java Packages",
+    "questions": [
+      {
+        "questionText": "What is the purpose of a package in Java?",
+        "choices": [
+          "To group related classes",
+          "To increase execution speed",
+          "To handle exceptions",
+          "To define methods"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "How do you import all classes from a package in Java?",
+        "choices": [
+          "import package.name.Class;",
+          "import package.name.*;",
+          "import package.name.all;",
+          "import package.name.classes;"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What does the following import statement do?\n```java\nimport java.util.Scanner;\n```",
+        "choices": [
+          "Imports the entire java.util package",
+          "Imports the Scanner class from the java.util package",
+          "Imports the java package",
+          "Imports all classes from the java.util package"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What is a user-defined package?",
+        "choices": [
+          "A package created by the Java Development Environment",
+          "A package created by the user to group related classes",
+          "A package that cannot be imported",
+          "A package that is automatically imported"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What is the correct syntax to create a package?",
+        "choices": [
+          "package = mypack;",
+          "create package mypack;",
+          "package mypack;",
+          "new package mypack;"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "Java Polymorphism",
+    "questions": [
+      {
+        "questionText": "What does polymorphism mean in Java?",
+        "choices": [
+          "One form",
+          "Many forms",
+          "No form",
+          "Single inheritance"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "Which keyword is used to inherit a class in Java?",
+        "choices": [
+          "inherits",
+          "extends",
+          "implements",
+          "inheritsFrom"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What is the purpose of polymorphism?",
+        "choices": [
+          "To perform different tasks using the same method",
+          "To prevent code reuse",
+          "To define classes without methods",
+          "To create objects from methods"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "What will be the output of the following code?\n```java\nclass Animal {\n  public void animalSound() {\n    System.out.println(\"The animal makes a sound\");\n  }\n}\n\nclass Dog extends Animal {\n  public void animalSound() {\n    System.out.println(\"The dog says: bow wow\");\n  }\n}\n\npublic class Main {\n  public static void main(String[] args) {\n    Animal myDog = new Dog();\n    myDog.animalSound();\n  }\n}\n```",
+        "choices": [
+          "The animal makes a sound",
+          "The dog says: bow wow",
+          "Compilation error",
+          "Runtime error"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "Why and when to use inheritance and polymorphism?",
+        "choices": [
+          "To increase execution speed",
+          "To avoid using methods",
+          "For code reusability and to perform single action in different ways",
+          "To handle exceptions"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "Java Inner Classes",
+    "questions": [
+      {
+        "questionText": "What is the purpose of nested classes in Java?",
+        "choices": [
+          "To optimize code execution",
+          "To handle exceptions",
+          "To group classes that belong together for better readability and maintainability",
+          "To define methods"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "How do you access an inner class in Java?",
+        "choices": [
+          "By creating an object of the inner class directly",
+          "By creating an object of the outer class and then creating an object of the inner class",
+          "By using the import keyword",
+          "By using the extend keyword"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What happens if you try to access a private inner class from an outside class?",
+        "choices": [
+          "The access is allowed",
+          "The inner class is ignored",
+          "A compilation error occurs",
+          "A runtime error occurs"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "How can you access a static inner class?",
+        "choices": [
+          "By creating an object of the outer class",
+          "By creating an object of the static inner class directly",
+          "By using the new keyword",
+          "By using the extend keyword"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What is the output of the following code?\n```java\nclass OuterClass {\n  int x = 10;\n\n  class InnerClass {\n    public int myInnerMethod() {\n      return x;\n    }\n  }\n}\n\npublic class Main {\n  public static void main(String[] args) {\n    OuterClass myOuter = new OuterClass();\n    OuterClass.InnerClass myInner = myOuter.new InnerClass();\n    System.out.println(myInner.myInnerMethod());\n  }\n}\n```",
+        "choices": [
+          "0",
+          "5",
+          "10",
+          "15"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "Java Abstraction",
+    "questions": [
+      {
+        "questionText": "What is data abstraction in Java?",
+        "choices": [
+          "Hiding certain details and showing only essential information",
+          "Showing all details of an object",
+          "Defining variables without initialization",
+          "Writing complex code without breaking it down"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "What is an abstract class in Java?",
+        "choices": [
+          "A class that can be used to create objects directly",
+          "A restricted class that cannot be used to create objects",
+          "A class with only static methods",
+          "A class with no methods"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What is an abstract method?",
+        "choices": [
+          "A method that has a body",
+          "A method that can be used to create objects",
+          "A method without a body",
+          "A method with a fixed implementation"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "Why and when to use abstract classes and methods?",
+        "choices": [
+          "To optimize code execution",
+          "To achieve security by hiding certain details",
+          "To handle exceptions",
+          "To perform complex calculations"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What will be the output of the following code?\n```java\nabstract class Animal {\n  public abstract void animalSound();\n  public void sleep() {\n    System.out.println(\"Zzz\");\n  }\n}\n\nclass Pig extends Animal {\n  public void animalSound() {\n    System.out.println(\"The pig says: wee wee\");\n  }\n}\n\npublic class Main {\n  public static void main(String[] args) {\n    Pig myPig = new Pig();\n    myPig.animalSound();\n    myPig.sleep();\n  }\n}\n```",
+        "choices": [
+          "Compilation error",
+          "The pig says: wee wee",
+          "Zzz",
+          "The pig says: wee wee\nZzz"
+        ],
+        "correctAnswerIndex": 3
+      }
+    ]
+  },
+  {
+    "category": "Java Enums",
+    "questions": [
+      {
+        "questionText": "What is an enum in Java?",
+        "choices": [
+          "A class that represents a group of constants",
+          "A class that represents a group of variables",
+          "A class that can be used to create objects",
+          "A class with only static methods"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "How do you declare an enum in Java?",
+        "choices": [
+          "enum Level { LOW, MEDIUM, HIGH }",
+          "enum Level ( LOW, MEDIUM, HIGH )",
+          "enum Level = { LOW, MEDIUM, HIGH }",
+          "enum Level -> { LOW, MEDIUM, HIGH }"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "How can you access an enum constant?",
+        "choices": [
+          "Level.MEDIUM()",
+          "Level[MEDIUM]",
+          "Level->MEDIUM",
+          "Level.MEDIUM"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "questionText": "What will be the output of the following code?\n```java\npublic class Main {\n  enum Level {\n    LOW, MEDIUM, HIGH\n  }\n  public static void main(String[] args) {\n    Level myVar = Level.MEDIUM;\n    System.out.println(myVar);\n  }\n}\n```",
+        "choices": [
+          "LOW",
+          "MEDIUM",
+          "HIGH",
+          "None of the above"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "Which method is used to loop through the constants of an enum?",
+        "choices": [
+          "values()",
+          "loop()",
+          "forEach()",
+          "constants()"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Java User Input",
+    "questions": [
+      {
+        "questionText": "Which class is used to get user input in Java?",
+        "choices": [
+          "InputStream",
+          "BufferedReader",
+          "Scanner",
+          "DataInput"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "How do you create a Scanner object to read user input?",
+        "choices": [
+          "Scanner myObj = new Scanner(System.in);",
+          "Scanner myObj = new Scanner();",
+          "Scanner myObj = System.in;",
+          "Scanner myObj = new Input();"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "Which method is used to read a String value from the user?",
+        "choices": [
+          "nextString()",
+          "next()",
+          "nextLine()",
+          "getString()"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What is the output of the following code?\n```java\nimport java.util.Scanner;\n\npublic class Main {\n  public static void main(String[] args) {\n    Scanner myObj = new Scanner(System.in);\n    System.out.println(\"Enter username\");\n    String userName = myObj.nextLine();\n    System.out.println(\"Username is: \" + userName);\n  }\n}\n```",
+        "choices": [
+          "Enter username",
+          "Username is: ",
+          "Enter username\nUsername is: userInput",
+          "Username is: userInput"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "Which method is used to read an integer value from the user?",
+        "choices": [
+          "nextInteger()",
+          "nextInt()",
+          "getInt()",
+          "next()"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Java Date and Time",
+    "questions": [
+      {
+        "questionText": "Which package is used to work with date and time in Java?",
+        "choices": [
+          "java.util",
+          "java.time",
+          "java.date",
+          "java.datetime"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "How do you display the current date in Java?",
+        "choices": [
+          "LocalDate myObj = LocalDate.today();",
+          "LocalDate myObj = new LocalDate();",
+          "LocalDate myObj = LocalDate.now();",
+          "LocalDate myObj = new LocalDate.now();"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "Which class represents a date (year, month, day) in Java?",
+        "choices": [
+          "LocalTime",
+          "LocalDateTime",
+          "DateTimeFormatter",
+          "LocalDate"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "questionText": "How do you format a date and time in Java?",
+        "choices": [
+          "Using DateFormat class",
+          "Using SimpleDateFormat class",
+          "Using DateTimeFormatter class",
+          "Using FormatDate class"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What will be the output of the following code?\n```java\nimport java.time.LocalDateTime;\nimport java.time.format.DateTimeFormatter;\n\npublic class Main {\n  public static void main(String[] args) {\n    LocalDateTime myDateObj = LocalDateTime.now();\n    DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern(\"dd-MM-yyyy HH:mm:ss\");\n    String formattedDate = myDateObj.format(myFormatObj);\n    System.out.println(\"After formatting: \" + formattedDate);\n  }\n}\n```",
+        "choices": [
+          "2024-05-19T23:46:52.191138",
+          "19-05-2024 23:46:52",
+          "2024/05/19 23:46:52",
+          "19/05/2024 23:46:52"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Java ArrayList",
+    "questions": [
+      {
+        "questionText": "Which package contains the ArrayList class?",
+        "choices": [
+          "java.util",
+          "java.array",
+          "java.list",
+          "java.collection"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "How do you create an ArrayList object to store strings?",
+        "choices": [
+          "ArrayList<String> cars = new ArrayList<>();",
+          "ArrayList<String> cars = new ArrayList<String>();",
+          "ArrayList<String> cars = new Array();",
+          "ArrayList<String> cars = new ArrayList<String>();"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "Which method is used to add elements to an ArrayList?",
+        "choices": [
+          "add()",
+          "insert()",
+          "append()",
+          "include()"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "How do you access an element in an ArrayList?",
+        "choices": [
+          "get(index)",
+          "retrieve(index)",
+          "access(index)",
+          "fetch(index)"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "What will be the output of the following code?\n```java\nimport java.util.ArrayList;\n\npublic class Main {\n  public static void main(String[] args) {\n    ArrayList<String> cars = new ArrayList<String>();\n    cars.add(\"Volvo\");\n    cars.add(\"BMW\");\n    cars.add(\"Ford\");\n    for (String i : cars) {\n      System.out.println(i);\n    }\n  }\n}\n```",
+        "choices": [
+          "Volvo, BMW, Ford",
+          "Volvo\nBMW\nFord",
+          "Volvo-BMW-Ford",
+          "Volvo BMW Ford"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Java LinkedList",
+    "questions": [
+      {
+        "questionText": "What class is used to create a linked list in Java?",
+        "choices": [
+          "ArrayList",
+          "LinkedList",
+          "List",
+          "Collection"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What is a key difference between ArrayList and LinkedList?",
+        "choices": [
+          "ArrayList uses containers for each element",
+          "LinkedList uses a regular array for elements",
+          "ArrayList stores its items in containers",
+          "LinkedList stores its items in containers with links to the next container"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "questionText": "Which method adds an item to the beginning of a LinkedList?",
+        "choices": [
+          "addFirst()",
+          "addLast()",
+          "add()",
+          "insertFirst()"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "When is it more efficient to use a LinkedList over an ArrayList?",
+        "choices": [
+          "When storing and accessing data",
+          "When you need access to random items in the list",
+          "When manipulating data",
+          "When using a fixed-size collection"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What does the getFirst() method do in a LinkedList?",
+        "choices": [
+          "Gets the item at the end of the list",
+          "Removes the first item from the list",
+          "Adds an item to the beginning of the list",
+          "Gets the item at the beginning of the list"
+        ],
+        "correctAnswerIndex": 3
+      }
+    ]
+  },
+  {
+    "category": "Java HashMap",
+    "questions": [
+      {
+        "questionText": "How are items stored in a HashMap?",
+        "choices": [
+          "As an ordered collection",
+          "As key/value pairs",
+          "As a list of objects",
+          "As a set of unique items"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "Which method is used to add a key/value pair to a HashMap?",
+        "choices": [
+          "add()",
+          "insert()",
+          "put()",
+          "set()"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "How can you access a value in a HashMap?",
+        "choices": [
+          "By its index",
+          "By its key",
+          "By its value",
+          "By its position"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "Which method removes an item from a HashMap?",
+        "choices": [
+          "delete()",
+          "remove()",
+          "clear()",
+          "drop()"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What is the output of the following code?\n```java\nimport java.util.HashMap;\n\npublic class Main {\n  public static void main(String[] args) {\n    HashMap<String, String> capitalCities = new HashMap<String, String>();\n    capitalCities.put(\"England\", \"London\");\n    capitalCities.put(\"Germany\", \"Berlin\");\n    capitalCities.put(\"Norway\", \"Oslo\");\n    capitalCities.put(\"USA\", \"Washington DC\");\n    System.out.println(capitalCities.get(\"Germany\"));\n  }\n}\n```",
+        "choices": [
+          "England",
+          "London",
+          "Berlin",
+          "Washington DC"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "Java HashSet",
+    "questions": [
+      {
+        "questionText": "What is a HashSet in Java?",
+        "choices": [
+          "A collection of key/value pairs",
+          "A collection of items where every item is unique",
+          "A collection of ordered items",
+          "A collection of items with duplicate values"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "Which method is used to add an item to a HashSet?",
+        "choices": [
+          "put()",
+          "insert()",
+          "add()",
+          "set()"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "How can you check if an item exists in a HashSet?",
+        "choices": [
+          "exists()",
+          "contains()",
+          "has()",
+          "check()"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What happens if you try to add a duplicate item to a HashSet?",
+        "choices": [
+          "It throws an exception",
+          "It replaces the existing item",
+          "It adds the item again",
+          "It ignores the duplicate item"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "questionText": "How do you loop through a HashSet?",
+        "choices": [
+          "Using a for-each loop",
+          "Using a while loop",
+          "Using an iterator",
+          "All of the above"
+        ],
+        "correctAnswerIndex": 3
+      }
+    ]
+  },
+  {
+    "category": "Java Iterator",
+    "questions": [
+      {
+        "questionText": "What is an Iterator in Java?",
+        "choices": [
+          "An object that can be used to loop through collections",
+          "A method to iterate through an array",
+          "A loop construct",
+          "A data structure"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "Which method is used to check if there are more elements in the collection while using an Iterator?",
+        "choices": [
+          "hasNext()",
+          "next()",
+          "hasMore()",
+          "checkNext()"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "How do you get the next element in the collection using an Iterator?",
+        "choices": [
+          "next()",
+          "getNext()",
+          "nextElement()",
+          "fetch()"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "Which method can remove items from a collection while using an Iterator?",
+        "choices": [
+          "delete()",
+          "remove()",
+          "clear()",
+          "discard()"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What will be the output of the following code?\n```java\nimport java.util.ArrayList;\nimport java.util.Iterator;\n\npublic class Main {\n  public static void main(String[] args) {\n    ArrayList<Integer> numbers = new ArrayList<Integer>();\n    numbers.add(12);\n    numbers.add(8);\n    numbers.add(2);\n    numbers.add(23);\n    Iterator<Integer> it = numbers.iterator();\n    while(it.hasNext()) {\n      Integer i = it.next();\n      if(i < 10) {\n        it.remove();\n      }\n    }\n    System.out.println(numbers);\n  }\n}\n```",
+        "choices": [
+          "[12, 8, 2, 23]",
+          "[12, 23]",
+          "[8, 2]",
+          "[12, 8, 23]"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Java Exceptions",
+    "questions": [
+      {
+        "questionText": "What happens when an error occurs in Java?",
+        "choices": [
+          "Java ignores the error",
+          "Java stops and generates an error message",
+          "Java continues executing the next lines",
+          "Java skips the error"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "Which keywords are used to handle exceptions in Java?",
+        "choices": [
+          "try and catch",
+          "throw and catch",
+          "try and throw",
+          "catch and finally"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "What will be the output of the following code?\n```java\npublic class Main {\n  public static void main(String[] args) {\n    try {\n      int[] myNumbers = {1, 2, 3};\n      System.out.println(myNumbers[10]);\n    } catch (Exception e) {\n      System.out.println(\"Something went wrong.\");\n    }\n  }\n}\n```",
+        "choices": [
+          "ArrayIndexOutOfBoundsException",
+          "Exception in thread \"main\"",
+          "Something went wrong.",
+          "1, 2, 3"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What does the finally statement do?",
+        "choices": [
+          "Executes code after try and catch, only if an error occurs",
+          "Executes code after try and catch, regardless of the result",
+          "Executes code only if no exception is caught",
+          "Skips code execution if an exception is caught"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What is the output of the following code?\n```java\npublic class Main {\n  public static void main(String[] args) {\n    try {\n      int[] myNumbers = {1, 2, 3};\n      System.out.println(myNumbers[10]);\n    } catch (Exception e) {\n      System.out.println(\"Something went wrong.\");\n    } finally {\n      System.out.println(\"The 'try catch' is finished.\");\n    }\n  }\n}\n```",
+        "choices": [
+          "Exception in thread \"main\"",
+          "Something went wrong.",
+          "The 'try catch' is finished.",
+          "Something went wrong. The 'try catch' is finished."
+        ],
+        "correctAnswerIndex": 3
+      }
+    ]
+  },
+  {
+    "category": "Java Threads",
+    "questions": [
+      {
+        "questionText": "What is the purpose of using threads in Java?",
+        "choices": [
+          "To execute code sequentially",
+          "To operate more efficiently by doing multiple things at the same time",
+          "To compile code faster",
+          "To simplify code structure"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "Which method must be overridden when extending the Thread class?",
+        "choices": [
+          "start()",
+          "run()",
+          "main()",
+          "execute()"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "How do you start a thread if a class implements the Runnable interface?",
+        "choices": [
+          "Create an instance of the class and call start()",
+          "Create an instance of the class and call run()",
+          "Pass an instance of the class to a Thread object and call start()",
+          "Pass an instance of the class to a Thread object and call run()"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What is a major difference between extending the Thread class and implementing the Runnable interface?",
+        "choices": [
+          "Extending Thread allows for multiple inheritance",
+          "Implementing Runnable allows for multiple inheritance",
+          "Extending Thread requires overriding the start() method",
+          "Implementing Runnable requires overriding the start() method"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "Which method is used to check if a thread has finished running?",
+        "choices": [
+          "isFinished()",
+          "isCompleted()",
+          "isAlive()",
+          "isRunning()"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "Java Lambda Expressions",
+    "questions": [
+      {
+        "questionText": "What is a lambda expression in Java?",
+        "choices": [
+          "A method with a specific name",
+          "A short block of code which takes in parameters and returns a value",
+          "A class constructor",
+          "An interface method"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What is the simplest lambda expression?",
+        "choices": [
+          "parameter -> { code block }",
+          "(parameter1, parameter2) -> { code block }",
+          "parameter -> expression",
+          "(parameter1, parameter2) -> expression"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "How can lambda expressions be used in a method?",
+        "choices": [
+          "As method parameters",
+          "As method return types",
+          "As class constructors",
+          "As class attributes"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "Which interface type allows a lambda expression to be stored in a variable?",
+        "choices": [
+          "Any interface with multiple methods",
+          "Any class with a single method",
+          "Any interface with a single method",
+          "Any abstract class"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What will be the output of the following code?\n```java\nimport java.util.ArrayList;\n\npublic class Main {\n  public static void main(String[] args) {\n    ArrayList<Integer> numbers = new ArrayList<Integer>();\n    numbers.add(5);\n    numbers.add(9);\n    numbers.add(8);\n    numbers.add(1);\n    numbers.forEach((n) -> { System.out.println(n); });\n  }\n}\n```",
+        "choices": [
+          "5 9 8 1",
+          "5 8 1 9",
+          "1 9 8 5",
+          "1 5 8 9"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Java Methods",
+    "questions": [
+      {
+        "questionText": "What is a method in Java?",
+        "choices": [
+          "A block of code which only runs when it is called",
+          "A block of code that runs continuously",
+          "A type of variable",
+          "A type of class"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "Which keyword is used to define a method that belongs to the class rather than an object?",
+        "choices": [
+          "public",
+          "private",
+          "static",
+          "void"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "How do you call a method in Java?",
+        "choices": [
+          "Write the method's name followed by parentheses ()",
+          "Write the method's name followed by curly braces {}",
+          "Write the method's name followed by square brackets []",
+          "Write the method's name followed by semicolon ;"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "What will be the output of the following code?\n```java\npublic class Main {\n  static void myMethod() {\n    System.out.println(\"I just got executed!\");\n  }\n\n  public static void main(String[] args) {\n    myMethod();\n    myMethod();\n    myMethod();\n  }\n}\n```",
+        "choices": [
+          "I just got executed! (once)",
+          "I just got executed! (twice)",
+          "I just got executed! (three times)",
+          "No output"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What does the void keyword indicate in a method declaration?",
+        "choices": [
+          "The method has no parameters",
+          "The method does not return a value",
+          "The method is private",
+          "The method is static"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Java Method Parameters",
+    "questions": [
+      {
+        "questionText": "How can information be passed to methods in Java?",
+        "choices": [
+          "Using variables",
+          "Using parameters",
+          "Using constructors",
+          "Using classes"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "Where are parameters specified in a method?",
+        "choices": [
+          "Before the method name",
+          "After the method body",
+          "Inside the parentheses following the method name",
+          "Inside the curly braces of the method body"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What will be the output of the following code?\n```java\npublic class Main {\n  static void myMethod(String fname) {\n    System.out.println(fname + \" Refsnes\");\n  }\n\n  public static void main(String[] args) {\n    myMethod(\"Liam\");\n    myMethod(\"Jenny\");\n    myMethod(\"Anja\");\n  }\n}\n```",
+        "choices": [
+          "Liam Jenny Anja",
+          "Liam Refsnes Jenny Refsnes Anja Refsnes",
+          "Refsnes Liam Refsnes Jenny Refsnes Anja",
+          "Liam Refsnes Jenny Anja"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What is the purpose of the fname parameter in the myMethod()?",
+        "choices": [
+          "To store the method's return value",
+          "To specify the method's name",
+          "To pass a value to the method",
+          "To create a new object"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "How do you add multiple parameters to a method?",
+        "choices": [
+          "Separate them with a semicolon",
+          "Separate them with a comma",
+          "Separate them with a period",
+          "Separate them with a space"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Java Return",
+    "questions": [
+      {
+        "questionText": "What does the void keyword indicate in a method declaration?",
+        "choices": [
+          "The method has no parameters",
+          "The method does not return a value",
+          "The method is private",
+          "The method is static"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "How do you specify that a method should return a value?",
+        "choices": [
+          "Use the return keyword inside the method",
+          "Use the return keyword outside the method",
+          "Use the void keyword",
+          "Use the static keyword"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "What will be the output of the following code?\n```java\npublic class Main {\n  static int myMethod(int x) {\n    return 5 + x;\n  }\n\n  public static void main(String[] args) {\n    System.out.println(myMethod(3));\n  }\n}\n```",
+        "choices": [
+          "3",
+          "5",
+          "8",
+          "15"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What will be the output of the following code?\n```java\npublic class Main {\n  static int myMethod(int x, int y) {\n    return x + y;\n  }\n\n  public static void main(String[] args) {\n    System.out.println(myMethod(5, 3));\n  }\n}\n```",
+        "choices": [
+          "3",
+          "5",
+          "8",
+          "15"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "How can the result of a method call be stored in a variable?",
+        "choices": [
+          "By using the void keyword",
+          "By assigning the method call to a variable",
+          "By declaring the method static",
+          "By using the return keyword outside the method"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "category": "Java Method Overloading",
+    "questions": [
+      {
+        "questionText": "What is method overloading in Java?",
+        "choices": [
+          "Defining multiple methods with the same name but different parameters",
+          "Defining multiple methods with different names but the same parameters",
+          "Defining a method within another method",
+          "Defining a method that calls another method"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "Which of the following method signatures is an example of method overloading?",
+        "choices": [
+          "int myMethod(int x)",
+          "float myMethod(float x)",
+          "double myMethod(double x, double y)",
+          "All of the above"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "questionText": "What will be the output of the following code?\n```java\nstatic int plusMethod(int x, int y) {\n  return x + y;\n}\n\nstatic double plusMethod(double x, double y) {\n  return x + y;\n}\n\npublic static void main(String[] args) {\n  int myNum1 = plusMethod(8, 5);\n  double myNum2 = plusMethod(4.3, 6.26);\n  System.out.println(\"int: \" + myNum1);\n  System.out.println(\"double: \" + myNum2);\n}\n```",
+        "choices": [
+          "int: 13 double: 10.56",
+          "int: 13 double: 10.5",
+          "int: 13 double: 10.6",
+          "int: 13 double: 11"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "Which keyword is used to overload a method in Java?",
+        "choices": [
+          "overload",
+          "override",
+          "static",
+          "No keyword is needed"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "questionText": "What is the advantage of method overloading?",
+        "choices": [
+          "It allows methods to have the same name but different functionalities based on parameter types",
+          "It increases the readability of the code",
+          "It allows a class to have multiple constructors",
+          "All of the above"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "category": "Java Scope",
+    "questions": [
+      {
+        "questionText": "What is scope in Java?",
+        "choices": [
+          "The ability to create objects",
+          "The region of code where a variable is accessible",
+          "The process of overloading methods",
+          "The process of overriding methods"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "Where can variables declared inside a method be accessed?",
+        "choices": [
+          "Anywhere in the class",
+          "Anywhere in the package",
+          "Anywhere in the method following the declaration line",
+          "Anywhere in the project"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "questionText": "What will be the output of the following code?\n```java\npublic class Main {\n  public static void main(String[] args) {\n    int x = 100;\n    System.out.println(x);\n  }\n}\n```",
+        "choices": [
+          "100",
+          "0",
+          "Compilation error",
+          "Runtime error"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "Can a variable declared inside a block be accessed outside the block?",
+        "choices": [
+          "Yes",
+          "No",
+          "Only if the variable is static",
+          "Only if the variable is public"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What will be the output of the following code?\n```java\npublic class Main {\n  public static void main(String[] args) {\n    { // This is a block\n      int x = 100;\n      System.out.println(x);\n    }\n    System.out.println(x); // This will cause an error\n  }\n}\n```",
+        "choices": [
+          "100",
+          "100 100",
+          "100 Compilation error",
+          "100 Runtime error"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "category": "Java Recursion",
+    "questions": [
+      {
+        "questionText": "What is recursion in Java?",
+        "choices": [
+          "A technique where a function calls itself",
+          "A technique to create objects",
+          "A technique to override methods",
+          "A technique to overload methods"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "What is the halting condition in recursion?",
+        "choices": [
+          "The condition where the function starts calling itself",
+          "The condition where the function stops calling itself",
+          "The condition where the function throws an exception",
+          "The condition where the function creates a new object"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What will be the output of the following code?\n```java\npublic class Main {\n  public static void main(String[] args) {\n    int result = sum(10);\n    System.out.println(result);\n  }\n  public static int sum(int k) {\n    if (k > 0) {\n      return k + sum(k - 1);\n    } else {\n      return 0;\n    }\n  }\n}\n```",
+        "choices": [
+          "55",
+          "10",
+          "0",
+          "Compilation error"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "questionText": "In recursion, what happens if there is no halting condition?",
+        "choices": [
+          "The program runs normally",
+          "The program enters into an infinite loop",
+          "The program throws a compilation error",
+          "The program runs faster"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "questionText": "What is the purpose of recursion?",
+        "choices": [
+          "To simplify the code",
+          "To break complicated problems down into simpler problems",
+          "To avoid loops",
+          "To create more complex algorithms"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  }
+]
